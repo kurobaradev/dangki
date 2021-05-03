@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(236, 236, 236);
+    padding: 0%;
+    margin: 0%;
+    font-size: 15px;
+    font-family:Arial, Helvetica;
+}
+.khoitrai{
+    width: 39%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+.khoitrai h1,p{
+    padding-left: 20px;
+}
+img{
+    width: 100%;
+}
+.khoiphai{
+    width: 59%;
+    height: 100%;
+    float: right;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+
+}
+.khoiphai ul{
+    list-style-type: none;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    
+}
+.khoiphai ul li{
+   float: left;
+   margin-right: 10px;
+   font-size: 20px;
+   width: 40%;
+}
+.khoiphai ul li:hover{
+  border-bottom: solid rgb(49, 168, 214) 2px;
+  color:rgb(49, 168, 214);
+ }
+.khoiphai .row{
+    width: 100%;
+    margin-top: 40px;
+}
+.khoiphai div.sdt input.sdt {
+    width: 65%;
+    /* margin-top: 20px; */
+}
+
+
+.khoiphai div.gioiTinh input.check-box{
+    width: 50px;
+    float: left;
+    height: 15px;
+    
+}
+.khoiphai div.gioiTinh label{
+    float: left;
+    margin-right: 60px;
+}
+.khoiphai div.gioiTinh label.check-box{
+    float: left;
+}
+
+.khoiphai div.row button.maXacThuc{
+    float: right;
+    width: 20%;
+    height: 30px;
+    background-color: rgb(49, 168, 214);
+    color: aliceblue;
+}
+.khoiphai div.row input{
+    float: right;
+    width: 85%;
+    height: 25px;
+    border-radius: 5px;
+    
+    z-index: 1000;
+    border: solid gray 1px;
+}
+.khoiphai div.xacNhan input{
+    width: 20px;
+    float: left;
+    
+    margin-left: 0;
+    margin-right: 5;
+    height: 15px;
+}
+.khoiphai div.xacNhan label{
+    width: 50px;
+}
+.khoiphai div.titleLo ul{
+    text-align: center;
+}
+.taoTk{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid grey;
+    height: 30px;
+    background-color: rgb(49, 168, 214);
+    color: aliceblue;
+}
+.sl{
+    border: 1px solid gray;
+    width:20% ;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: ;
+}
+#dieukien{
+    text-align: center;
+}
